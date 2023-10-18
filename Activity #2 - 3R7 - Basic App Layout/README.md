@@ -3,7 +3,7 @@
 <h6>FULL CODE</h6>
 <pre>
     <code>
-        import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -73,10 +73,9 @@ class _HomeState extends State<Home> {
     </code>
 </pre>
 
- 
-</code>
 
-<code> 
+ <pre>
+    <code>
 import 'package:flutter/material.dart';
 import 'package:app_basic_layout/home.dart';
 
@@ -98,4 +97,7 @@ class MainApp extends StatelessWidget {
     );
   }
 }
-</code>
+    </code>
+</pre>
+
+
