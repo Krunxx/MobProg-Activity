@@ -15,9 +15,11 @@ class _HomeState extends State<Home> {
     return DefaultTabController(
         length: 2,
         child: Scaffold(
-          appBar: AppBar(
+          //APPLICATION BAR
+          appBar: AppBar( 
             leading: const Icon(Icons.code),
             title: const Text("Basic App Layout"),
+            //TAB BAR
             bottom: const TabBar(
               tabs: [
                 Tab(icon: Icon(Icons.home),
@@ -28,6 +30,7 @@ class _HomeState extends State<Home> {
             ),
           ),
 
+          //BODY -> TAB BAR VIEW
           body: const TabBarView(
             children: [
               Center(
@@ -39,6 +42,7 @@ class _HomeState extends State<Home> {
             ],
           ),
 
+          //FLOATING ACTION BUTTON
           floatingActionButton: FloatingActionButton(
             onPressed: () {
               setState(() {
@@ -48,6 +52,7 @@ class _HomeState extends State<Home> {
             child: const Icon(Icons.add),
           ),
 
+          //BOTTOM NAVIGATION BAR
           bottomNavigationBar:
           Container(
             color: Colors.blue,
