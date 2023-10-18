@@ -2,99 +2,13 @@
   Your browser does not support the video tag.
 </video>
 
-<h6>FULL CODE</h6>
-<pre>
-    <code>import 'package:flutter/material.dart';
+<h2>FULL CODE</h2>
+<h3>Main.dart</h3>
+<img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/d815b4c9-f955-4461-a139-0f280dbbefbb">
 
-class Home extends StatefulWidget {
-  const Home({super.key});
-
-  @override
-  State<Home> createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  int counter = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-        length: 2,
-        child: Scaffold(
-          //APPLICATION BAR
-          appBar: AppBar( 
-            leading: const Icon(Icons.code),
-            title: const Text("Basic App Layout"),
-            //TAB BAR
-            bottom: const TabBar(
-              tabs: [
-                Tab(icon: Icon(Icons.home),
-                ),
-                Tab(icon: Icon(Icons.message),
-                ),
-              ],
-            ),
-          ),
-
-          //BODY -> TAB BAR VIEW
-          body: const TabBarView(
-            children: [
-              Center(
-                child: Text("1st Tab"),
-              ),
-              Center(
-                child: Text("2nd Tab"),
-              ),
-            ],
-          ),
-
-          //FLOATING ACTION BUTTON
-          floatingActionButton: FloatingActionButton(
-            onPressed: () {
-              setState(() {
-                counter++;
-              });
-            },
-            child: const Icon(Icons.add),
-          ),
-
-          //BOTTOM NAVIGATION BAR
-          bottomNavigationBar:
-          Container(
-            color: Colors.blue,
-            height: 50,
-            child: Center(
-              child: Text("Counter = $counter"),
-            ),
-          ),
-        ),
-    );
-  }
-}
-
-import 'package:flutter/material.dart';
-import 'package:app_basic_layout/home.dart';
-
-void main(){
-  runApp(MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Home(),
-    );
-  }
-}
-    </code>
-</pre>
+<h3>Home.dart</h3>
+<img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/b8f4e768-c44f-4bd6-b2cd-6dbfc9f7097a" >
+<img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/b078f0ef-7b4c-475a-b542-988be5e87091" >
 
 
 
