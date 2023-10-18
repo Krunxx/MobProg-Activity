@@ -1,8 +1,9 @@
 <img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/e30dc49d-ad67-4518-b1a8-aca26683f81b" height = '500px' >
 
 <h6>FULL CODE</h6>
-<code>
-  import 'package:flutter/material.dart';
+<pre>
+    <code>
+        import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -69,6 +70,10 @@ class _HomeState extends State<Home> {
     );
   }
 }
+    </code>
+</pre>
+
+ 
 </code>
 
 <code> 
