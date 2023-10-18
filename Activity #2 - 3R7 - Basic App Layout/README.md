@@ -1,8 +1,7 @@
 <img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/e30dc49d-ad67-4518-b1a8-aca26683f81b" height = '500px' >
 
 <h6>FULL CODE</h6>
-<p>
-  //home.dart
+<code>
   import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -70,10 +69,11 @@ class _HomeState extends State<Home> {
     );
   }
 }
+</code>
 
-  //main.dart
-  import 'package:flutter/material.dart';
- import 'package:app_basic_layout/home.dart';
+<code> 
+import 'package:flutter/material.dart';
+import 'package:app_basic_layout/home.dart';
 
 void main(){
   runApp(MainApp());
@@ -93,4 +93,4 @@ class MainApp extends StatelessWidget {
     );
   }
 }
-</p>
+</code>
