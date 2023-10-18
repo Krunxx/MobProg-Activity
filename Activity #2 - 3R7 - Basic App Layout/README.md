@@ -1,4 +1,6 @@
-<img src = "https://github.com/Krunxx/MobProg-Activity/assets/82696971/e30dc49d-ad67-4518-b1a8-aca26683f81b" height = '500px' >
+<video src="https://github.com/Krunxx/MobProg-Activity/assets/82696971/babb792f-c298-450f-8986-3e085d968373" controls>
+  Your browser does not support the video tag.
+</video>
 
 <h6>FULL CODE</h6>
 <pre>
