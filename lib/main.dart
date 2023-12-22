@@ -41,7 +41,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class UserDataWidget extends StatefulWidget {
   final SharedPreferencesService sharedPreferencesService;
 
@@ -72,6 +71,16 @@ class _UserDataWidgetState extends State<UserDataWidget> {
             ));
           },
           child: Text('Set Username'),
+        ),
+        SizedBox(height: 10),
+        ElevatedButton(
+          onPressed: () async {
+            await widget.sharedPreferencesService.removeUsername();
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              content: Text('Username removed successfully!'),
+            ));
+          },
+          child: Text('Remove Username'),
         ),
         SizedBox(height: 10),
         FutureBuilder(

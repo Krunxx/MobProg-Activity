@@ -1,3 +1,4 @@
+// shared_preferences_service.dart
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesService {
@@ -11,5 +12,10 @@ class SharedPreferencesService {
   Future<void> setUsername(String username) async {
     final prefs = await SharedPreferences.getInstance();
     prefs.setString(KEY_USERNAME, username);
+  }
+
+  Future<void> removeUsername() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.remove(KEY_USERNAME);
   }
 }
